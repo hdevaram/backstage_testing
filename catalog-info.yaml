@@ -5,5 +5,5 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/naveenkumarvr/backstage_testing/blob/main/backstage_catalog/detect_action_catalog-info.yaml
-    - https://github.com/naveenkumarvr/backstage_testing/blob/main/backstage_catalog/codesense_action_catalog-info.yaml
+    - https://github.com/naveenkumarvr/backstage_testing/backstage_catalog/detect_action_catalog-info.yaml
+    - https://github.com/naveenkumarvr/backstage_testing/backstage_catalog/codesense_action_catalog-info.yaml
