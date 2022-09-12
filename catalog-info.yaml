@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: philips-actions # use repo name or something else you know to be unique
+spec:
+  type: url
+  targets:
+    - https://github.com/philips-internal/actions/backstage_catalog/detect_action_catalog-info.yaml
+    - https://github.com/philips-internal/actions/backstage_catalog/codesense_action_catalog-info.yaml

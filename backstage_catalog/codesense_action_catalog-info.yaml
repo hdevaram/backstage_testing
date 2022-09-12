@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "codescene-delta-analyses"
+  description: "A GitHub action to trigger Codescene delta analysis as action with a provided philips container. On trigger codescene will perform a delta analysis on the commits included in the pull request."
+  tags:
+    - codescene-action
+    - codescene
+    - analyses
+  links:
+    - url: https://github.com/philips-internal/codescene-delta-analyses
+      title: codescene-delta-analyses
+      icon: code
+  annotations:
+    github.com/project-slug: philips-internal/codescene-delta-analyses
+    backstage.io/source-location: url:https://github.com/philips-internal/codescene-delta-analyses
+spec:
+  type: github-action
+  lifecycle: experimental
+  owner: "Team Krishna - swcoe_SaaSFactory"
